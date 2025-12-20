@@ -3,188 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>랜딩페이지</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>일만 시간의 법칙</title>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
-  <body id="top">
-  
-    <header>
-      <div class="container1">
-        <img class="logo" src="./images/logo.svg" alt="로고" />
-        <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="hamburger">
-         &#9776; 
-        </label>
-        <div class="nav-group">
-          <nav class="nav-box">
-            <a href="home.html" class="nav-btn">Home</a>
-            <a href="about.html" class="nav-btn">About</a>
-            <a href="contact.html" class="nav-btn">Contact</a>
-          </nav>
-          <button class="btn-download">Download</button>
-        </div>       
-      </div>
-    </header>
 
-    <main>
-      <div class="section-hero-bg">
-       <section class="section-hero">
-       
-           <div class="hero-text-container">
-          <h2 class="hero-h">
-            Lorem Ipsum is simply dummy text of the printing and
-          </h2>
-          <p class="hero-p">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown
-          </p>
-          <button class="btn-download">Download</button>
-        </div>
-        <img
-          class="box-cat"
-          src="./images/hero-image.png"
-          alt="박스를 뒤집어 쓴 고양이"
-        />      
-       </section> 
-      </div>
-
-      <section class="section-contaioner">
-        <div class="section1">
-          <img
-            class="noop-cat"
-            src="./images/feature-image.png"
-            alt="이불위에 누운 고양이"
-          />
-          <div class="first">
-            <h3 class="first-h">
-              Lorem Ipsum is simply dummy text of the printing and dummy text
-            </h3>
-            <p class="first-p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <div class="img-wrap">
+            <img class="img1" src="./images/title.png" alt="일만시간의 법칙" />
+            <img class="img2" src="./images/loading.png" alt="" />
           </div>
+
+          <blockquote>
+            “연습은 어제의 당신보다 당신을 더 낫게 만든다.”
+          </blockquote>
+        </div>
+      </header>
+
+      <main>
+        <div class="intro">
+          <p><strong>1만 시간의 법칙</strong>은</p>
+          <p>어떤 분야의 전문가가 되기 위해서는</p>
+          <p>최소한 1만 시간의 훈련이 필요하다는 법칙이다.</p>
         </div>
 
-        <div class="section2">
-          <div class="second">
-            <h2>
-              <span>dummy text of the printing and dummy</span>
-            </h2>
-            <p class="second-p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown
-            </p>
+        <div class="calculator">
+          <div class="center-line">
+            <p class="inline">나는</p>
+            <input
+              type="text"
+              class="inline-input"
+              placeholder="예)프로그래밍"
+              aria-label="목표 분야"
+            />
+            <p class="inline">전문가가 될 것이다.</p>
           </div>
-          <div class="img-box">
-            <img src="./images/cat1.png" alt="벌 서는 고양이" />
-            <img src="./images/cat2.png" alt="왕관 쓴 고양이" />
-            <img src="./images/cat3.png" alt="로봇 고양이" />
+          <div>
+            <p class="inline">그래서 앞으로 매일 하루에</p>
+            <input
+              type="number"
+              class="inline-input"
+              placeholder=" 5 "
+              aria-label="하루 훈련 시간"
+            />
+            <p class="inline">시간씩 훈련할 것이다.</p>
           </div>
-          <div class="story">
-            <p class="story-p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown Ipsum is simply dummy text
-              of the printing and typesetting industry.
-            </p>
-            <button class="btn-learn-more">Learn More</button>
-          </div>
-        </div>
-        </section>
 
-        <div class="section3">
-          <div class="newsletter">
-            <h3 class="newsletter-h">Subscribe to our Blog post</h3>
-            <p class="newsletter-p">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-            </p>
+          <div>
+            <button class="btn-calc">
+              <p>나는 며칠 동안 훈련을 해야 1만 시간이 될까?</p>
+            </button>
           </div>
-         
-           <div class="input-container"> 
-              <form action="#subscrkbeModal">
-              <div class="input-wrap">
-                <input type="e-mail" 
-                  required
-                  placeholder="Enter your e-mail address"
-                  /> 
-              <button class="btn-submit" type="submit" id="show-dialog-btn">Subscribe</button>
-              </div>
-              </form>              
+
+          <div class="result">
+            <div>
+              <p class="inline">
+                당신은 <span class="big-bold"> 프로그래밍 </span> 전문가가 되기
+                위해서
+              </p>
             </div>
-         
+            <div>
+              <p class="inline">
+                대략 <span class="big-bold"> 5110 </span> 일 이상 훈련하셔야
+                합니다! :)
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
 
-      <button class="btn-scroll-top" src="./images/top-btn.svg"></button>
-  </main>
-         
-   <div class="bg-img"></div>
-
-    <footer>
-        <img class="logo-big" src="./images/logo.svg" alt="로고" />
-      <div class="sns-icons">
-        
-        <a href="https://blog.naver.com" target="_blank">
-          <div class="blog-box">
-          <img src="./images/blog.png" alt="블로그" />
+        <div class="btn-box">
+          <button class="btn-prim">훈련하러 가기 GO! GO!</button>
+          <button class="btn-share">공유하기</button>
         </div>
-        </a>
+      </main>
 
-        <a href="https://www.instagram.com" target="_blank">
-          <div class="instagram-box">
-            <img src="./images/instagram.png" alt="인스타그램" />
-          </div>          
-         </a>
-
-        <a href="https://www.facebook.com" target="_blank">
-         <div class="facebook-box">
-          <img src="./images/facebook.png" alt="페이스북" />
-         </div>          
-         </a>
-
-        <a href="https://www.youtube.com" target="_blank">
-          <div class="youtube-box">
-            <img src="./images/youtube.png" alt="유튜브" />
-          </div>          
-          </a>
-      </div>     
-    </footer>
-  <a href="#top" class="btn-scroll-top" aria-label="맨 위로 이동"></a>
-  <a href="#top" class="scroll-area">
-    <div class="btn-scroll-top"></div>
-  </a>
-    <dialog class="modal" id="subscribe-modal">  
-      <div class="thanks-card">
-        <img src="./images/cat 1.png" alt="고양이 얼굴">
-        <h3 > 
-          <span>Thank you!</span>
-        </h3>
-        <p class="modal-p">
-          Lorem Ipsum is simply dummy text of the printing industry. 
+      <footer>
+        <img class="logo" src="./images/logo.png" alt="위니브 로고" />
+        <p>
+          본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 위니브에 있습니다.
+          <br />수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
         </p>
-        <form method ="dialog">
-          <button class="btn-ok" id="close-btn">OK! I Love HODU</button>
-        </form>           
-      </div> 
-   </dialog> 
-<script>
-  const dialog = document.getElementById("subscribe-modal");
-  const showDialogBtn = document.getElementById("show-dialog-btn");
-  const closeBtn = document.getElementById("close-btn");
- 
-  showDialogBtn.addEventListener('click', () => {
-    dialog.showModal();
-    console.log('#');
-  });
- 
-  closeBtn.addEventListener('click', () => {
-    dialog.close();
-  });
-</script>
-  
+      </footer>
+    </div>
+
+    <div class="overlay">
+      <div class="container-overlay">
+        <div class="text-group">
+          <p class="title">화이팅!!</p>
+          <p class="sub-title">당신의 꿈을 응원합니다!</p>
+        </div>
+        <img class="back-img" src="./images/licat.png" alt="라이켓 캐릭터" />
+        <button class="btn-gogo">
+          종료하고 진짜 <br />훈련하러 가기 GO!GO!
+        </button>
+      </div>
+    </div>
   </body>
-</html>
